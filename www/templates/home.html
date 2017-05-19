@@ -1,0 +1,44 @@
+<ion-view view-title="Ristorante con Fusion">
+    <ion-content>
+        <!-- ionic support list, items, tabs-directive,  -->
+        <div class="card">
+            <div class="item item-divider">
+                Our Lipsmacking Culinary Creations
+                <span class="badge badge-assertive">{{dish.label}}</span>
+            </div>
+            <div class="item item-thumbnail-left item-text-wrap">
+                <img ng-src="{{baseURL+dish.image}}" alt="Uthappizza">
+                <!-- in Ionic u have to specify the baseURL -->
+                <h2>{{dish.name}}
+                <span class="badge">{{dish.price | currency}}</span></h2>
+                <p>{{dish.description}}</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="item item-divider">
+                This Month's Promotions
+                <span class="badge badge-assertive">{{promotion.label}}</span>
+            </div>
+            <div class="item item-thumbnail-left item-text-wrap">
+                <img ng-src="{{baseURL+promotion.image}}" alt="Promotions">
+                <!-- in Ionic u have to specify the baseURL -->
+                <h2>{{promotion.name}}
+                <span class="badge">{{promotion.price | currency}}</span></h2>
+                <p>{{promotion.description}}</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="item item-divider">
+                Meet our Culinary Specialists
+                <span class="badge">{{leader.label}}</span>
+            </div>
+            <div class="item item-thumbnail-left item-text-wrap">
+                <img ng-src="{{baseURL+leader.image}}" alt="Executive Chef">
+                <!-- in Ionic u have to specify the baseURL -->
+                <h2>{{leader.name}}</h2>
+                <small>{{leader.designation}}</small>
+                <p>{{leader.description}}</p>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

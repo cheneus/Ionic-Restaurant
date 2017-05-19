@@ -1,0 +1,47 @@
+{
+    "name": "confusion",
+    "version": "1.1.1",
+    "description": "Website for an awesome restaurant",
+    "main": "index.html",
+    "moduleType": [],
+    "keywords": [
+        "conFusion",
+        "Fusion",
+        "Restaurant"
+    ],
+    "authors": [
+        "Chen"
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "~3.3.5",
+        "font-awesome": "~4.4.0",
+        "angular": "^1.6.3",
+        "angular-route": "^1.6.3",
+        "angular-ui-router": "^0.4.2",
+        "angular-resource": "^1.6.3",
+        "angular-mocks": "^1.6.3"
+
+    },
+    "devDependencies": {
+        "ionic": "driftyco/ionic-bower#1.3.3",
+    "angular-ui-router": "^0.4.2"
+    },
+    "resolutions": {
+        "angular": "1.6.3"
+    }
+
+    // "name": "HelloIonic",
+    // "private": "true",
+    // "devDependencies": {
+    //   "ionic": "driftyco/ionic-bower#1.3.3"
+    // }
+}
